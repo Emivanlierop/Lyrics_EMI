@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Name | Songwriter • Storyteller • Lyricist</title>
+
+    <meta name="description"
+        content="Professional songwriter creating emotional lyrics for artists, producers and publishers.">
+
+    <meta name="theme-color" content="#0B0B0D">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="songs.js" defer></script>
+    <script src="java.js" defer></script>
+</head>
+
+<body>
+
+<div id="mouse-glow"></div>
+
+<canvas id="stars"></canvas>
+
+<div class="moon"></div>
+
+<header>
+
+<nav>
+
+<a href="#home" class="logo">
+    EMI
+</a>
+
+<ul>
+
+<li><a href="#about">Over mij</a></li>
+<li><a href="#songs">Songs</a></li>
+<li><a href="#process">Proces</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<span class="subtitle">
+Songwriter • Storyteller • Lyricist
+</span>
+<div class="hero-line"></div>
+
+<h1>
+    EMI
+</h1>
+
+<p>
+
+    Ik schrijf poëtische songteksten waarin gevoel altijd vooropstaat. Eerlijk, kwetsbaar en met ruimte voor een eigen interpretatie. 
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#songs" class="btn primary">
+Bekijk mijn werk
+</a>
+
+<a href="#contact" class="btn secondary">
+Neem contact
+</a>
+
+</div>
+
+</div>
+
+<div class="scroll-indicator">
+
+<span></span>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about reveal">
+
+<div class="about-image">
+
+<img
+loading="lazy"
+src="fotos/MIJ.JPG"
+alt="Songwriter portrait">
+
+</div>
+
+<div class="about-text">
+
+<h2>
+Over mij
+</h2>
+
+<p>
+
+Schrijven begon als poëzie. <br>
+Niet om indruk te maken op mensen, maar om emoties te begrijpen die moeilijk onder woorden te brengen waren. <br>
+Na verloop van tijd veranderden die gedichten langzaam in songteksten. <br> <br>
+Nu schrijf ik teksten die luisteraars uitnodigen om een stukje van zichzelf erin te herkennen. <br> 
+Niet bepaald door een genre. 
+Alleen door oprechtheid.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- SONGS -->
+
+<section id="songs" class="songs reveal">
+
+<div class="section-title">
+
+<h2>
+Uitgelichte nummers
+</h2>
+
+<p>
+Verhalen die op een stem wachten. <br>
+De demo-opnames zijn ontwikkeld met behulp van AI als creatieve ondersteuning, om de sfeer en muzikale richting van de nummers te visualiseren.</p>
+
+</div>
+
+<div class="song-grid">
+
+<article class="song-card">
+
+<img
+loading="lazy"
+src="images/song1.jpg"
+alt="Song Cover">
+
+<div class="song-content">
+
+<h3>
+De Ruimte
+</h3>
+
+<p><strong>Genre</strong> — Akoestische Pop</p>
+
+<p><strong>Thema</strong> — Heling, acceptatie</p>
+
+<p><strong>Demo</strong> — Created with AI assistance (Suno)</p>
+
+<p>
+
+Een nummer over een stap terugdoen in een relatie. 
+
+</p>
+
+<div class="card-buttons">
+
+<button class="lyrics-btn"
+data-song="song1">
+
+Bekijk lyrics
+
+</button>
+
+
+<a href="https://on.soundcloud.com/vNmNVnc1L8wC5iifth"
+target="_blank"
+class="demo-btn">
+
+<i class="fa-solid fa-play"></i>
+Luister Demo
+
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<article class="song-card">
+
+<img
+loading="lazy"
+src="images/song2.jpg"
+alt="Song Cover">
+
+<div class="song-content">
+
+<h3>
+Van de radar verdwenen
+</h3>
+
+<p><strong>Genre</strong> — Pop</p>
+
+<p><strong>Thema</strong> — Zelfreflectie, identiteit</p>
+
+<p><strong>Demo</strong> — Created with AI assistance (Song.do)</p>
+
+<p>
+
+Een nummer over jezelf (of een ander) terugvinden na een ingrijpende gebeurtenis (ziekte, verslaving, trauma). 
+
+</p>
+
+<div class="card-buttons">
+
+<button class="lyrics-btn"
+data-song="song2">
+
+Bekijk lyrics
+
+</button>
+
+
+<a href="https://on.soundcloud.com/mzleAbvFyJ5XNn7Ze4"
+target="_blank"
+class="demo-btn">
+
+<i class="fa-solid fa-play"></i>
+Luister Demo
+
+</a>
+
+</div>
+
+</div>
+
+</article>
+
+<!-- More song cards -->
+
+</div>
+
+</section>
+
+<!-- PROCESS -->
+
+<section id="process" class="process reveal">
+
+<h2>
+Het schrijfproces
+</h2>
+
+<div class="timeline">
+
+<div class="step">
+
+<div class="circle"></div>
+
+<h3>Idee</h3>
+
+</div>
+
+<div class="step">
+
+<div class="circle"></div>
+
+<h3>Gedicht</h3>
+
+</div>
+
+<div class="step">
+
+<div class="circle"></div>
+
+<h3>Lyrics</h3>
+
+</div>
+
+<div class="step">
+
+<div class="circle"></div>
+
+<h3>Demo</h3>
+
+</div>
+
+<div class="step">
+
+<div class="circle"></div>
+
+<h3>Samenwerking</h3>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact reveal">
+
+<div class="contact-info">
+
+<h2>
+
+Laten we iets moois neerzetten
+</h2>
+
+<p>
+Of je nou op zoek bent naar lyrics, samenwerking of gewoon contact wilt - 
+
+Ik kijk uit naar jouw verhaal
+
+
+
+</div>
+
+<form 
+id="contact-form"
+action="https://formspree.io/f/maqrydeb"
+method="POST">
+
+<form action="https://formspree.io/f/maqrydeb" method="POST">
+
+<input 
+type="hidden" 
+name="_subject" 
+value="Nieuw bericht via EMI website">
+
+<input
+type="text"
+name="naam"
+placeholder="Naam"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Email"
+required>
+
+<textarea
+name="bericht"
+placeholder="Vertel me over jouw project"
+required></textarea>
+
+<button>
+
+Bericht versturen
+
+</button>
+
+</form>
+
+<div class="form-success">
+
+<h3>
+Dankjewel voor je bericht ✨
+</h3>
+
+<p>
+Ik heb je bericht ontvangen en neem zo snel mogelijk contact met je op.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 EMI
+
+</p>
+
+<nav>
+
+<a href="#about">Over mij</a>
+
+<a href="#songs">Songs</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</footer>
+
+<!-- MODAL -->
+
+<div class="lyrics-modal">
+
+<div class="modal-content">
+
+<button class="close-modal">
+
+&times;
+
+</button>
+
+<h2>
+
+Titel
+
+</h2>
+
+<div id="lyrics-container">
+
+Lyrics verschijnt hier.
+
+</div>
+
+</div>
+
+</div>
+
+
+</body>
+
+</html>
+
