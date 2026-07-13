@@ -799,6 +799,11 @@ transform:none;
 
 }
 
+.songs img{
+        filter:grayscale(50%);
+        display: none;
+}
+
 
 .song-grid {
 
